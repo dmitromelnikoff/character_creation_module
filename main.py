@@ -6,7 +6,8 @@ def attack(char_name, char_class):
         return (f'{char_name} нанёс урон противнику'
                 f' равный {5 + randint(3, 5)}')
     if char_class == 'mage':
-        return (f'{char_name} нанёс урон противнику равный {5 + randint(5, 10)}')
+        return (f'{char_name} нанёс урон противнику'
+                f' равный {5 + randint(5, 10)}')
     if char_class == 'healer':
         return (f'{char_name} нанёс урон противнику равный {5 + randint(-3, -1)}')
 def defence(char_name, char_class):
